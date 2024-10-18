@@ -1,0 +1,178 @@
+html,body{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+nav{
+    background-color: brown;
+    color: white;
+}
+
+.nav-link{
+    color: white;
+    font-weight: bold;
+    /* padding: 5px; */
+    /* margin: 7px; */
+}
+
+.nav-link:hover{
+    color: wheat;
+}
+
+.nav-item{
+    margin: 10px;
+}
+
+.hero{
+    height: 350px;
+    /* background-color: wheat; */
+    color: black;
+    margin: 20px;
+}
+
+ol > li{
+    list-style: lower-roman;
+}
+
+.lang{
+    margin: 10px;
+    background-image:linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url(../img/html5.png);
+    background-size: cover;
+    color: white;
+    background-repeat: no-repeat;
+    /* background: linear-gradient(brown, white); */
+    height: 200px;
+}
+
+.lang2{
+    margin: 10px;
+    background-image:linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url(../img/css3.png);
+    background-size: cover;
+    color: white;
+    background-repeat: no-repeat;
+    height: 200px;
+}
+
+.lang3{
+    margin: 10px;
+    background-image:linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url(../img/javascript5.webp);
+    background-size: cover;
+    color: white;
+    background-repeat: no-repeat;
+    height: 200px;
+}
+
+.lang4{
+    margin: 10px;
+    background-image:linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url(../img/react.webp);
+    background-size: cover;
+    color: white;
+    background-repeat: no-repeat;
+    height: 200px;
+}
+
+.lang5{
+    margin: 10px;
+    background-image:linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url(../img/Python.png);
+    background-size: cover;
+    color: white;
+    background-repeat: no-repeat;
+    height: 200px;
+}
+
+.lang6{
+    margin: 10px;
+    background-image:linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url(../img/django.png);
+    background-size: cover;
+    color: white;
+    background-repeat: no-repeat;
+    height: 200px;
+}
+
+.lang7{
+    margin: 10px;
+    background-image:linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url(../img/Java.png);
+    background-size: cover;
+    color: white;
+    background-repeat: no-repeat;
+    height: 200px;
+}
+
+.lang8{
+    margin: 10px;
+    background-image:linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url(../img/c.png);
+    background-size: cover;
+    color: white;
+    background-repeat: no-repeat;
+    height: 200px;
+}
+
+.lang > div{
+    /* padding: 80px; */
+}
+
+.p-tag{
+    display: inline-block;
+}
+
+.mylogo{
+    border-radius: 50%;
+}
+
+.language{
+    margin-top: 80px;
+}
+
+.link{
+    color: white;
+    text-decoration: none;
+}
+
+#footer{
+    height: 80px;
+    background-color: black;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: 990;
+    margin: 0;
+}
+
+#footer > div{
+    padding: 20px;
+}
+
+@media  (max-width:570px) {
+    html,body{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        scroll-behavior: smooth;
+    }
+
+    .hero{
+        height: 800px;
+    }
+
+    .my-items{
+        margin: 10px;
+        height: 350px;
+    }
+    
+    .my-items2{
+        margin-bottom: 130px;
+        height: 350px;
+    }
+
+    #footer{
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        z-index: 990;
+        margin: 0;
+    }
+}
